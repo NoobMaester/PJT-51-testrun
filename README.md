@@ -4,6 +4,9 @@
 This repository was created to strengthen our git command knowledge and to improve our collaboration skills.
 All you have to do is clone the repository to your desktop or PC, add a file or folder to it, pull new changes (if any), check for any merge conflicts after you pull, reconcile these conflicts then push your clean code. Ensure you pull firt before you push and do not push any code with merge conflicts.
 
+For example, to clone this repository, all you have to do is right click on your desktop, click on git bash (if you have it set up already). When it opens up, type "git clone https://github.com/Oduchep/PJT-51-testrun.git" without the double quotes and you'll clone this repo. Git commands can also be typed in the terminal of IDE's like VSCode, Sublime text, etc
+
+
 #BASIC GIT COMMANDS YOU NEED TO KNOW
 git clone: creates a local copy of a project that already exists remotely. The clone includes all the project’s files, history, and branches.
 
