@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="./style.css" />
 		<title>Oduchep Practice</title>
 	</head>
-	<body>
+	<body class="mb-5 bg-white">
 		<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
 			<div class="container">
 				<a href="#" class="navbar-brand">Ninjas</a>
@@ -38,23 +38,52 @@
 				</div>
 			</div>
 		</nav>
-		<header>
+		<section>
 			<div class="header-div d-flex justify-content-center align-items-center">
 				<h1 class="text-light"><em>Naruto Shippuden</em></h1>
 			</div>
-		</header>
+		</section>
 
-		<div class="containers shadow bg-body rounded">
-			<img src="./images/Sasuke Uchiha.jpg" alt="Avatar" width="400px" height="400px" class="image rounded" />
-
-			<div class="texter-overlay">
-				<div class="texter">
-					<p><strong>Name:</strong> Sasuke Uchiha</p>
-					<p><strong>Clan:</strong> Uchiha clan</p>
-					<p><strong>Dojutsu:</strong> Mangekyo Sharingan</p>
+		<section class="container">
+			<article class="d-flex flex-wrap justify-content-evenly">
+				<div class="ninja-card shadow-lg mx-2 rounded" style="width: 18rem">
+					<img src="./images/Naruto Uzumaki.jpg" class="card-img-top w-100" alt="..." />
+					<div class="ninja-card-overlay rounded">
+						<div class="overlay-text text-light">
+							<p><strong>Name:</strong> Naruto Uzumaki</p>
+							<p><strong>Clan:</strong> Uzumaki clan</p>
+							<p><strong>Dojutsu:</strong> None</p>
+							<p><strong>Summoning:</strong> Toad</p>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
+
+				<div class="ninja-card shadow-lg mx-2 rounded" style="width: 18rem">
+					<img src="./images/Sasuke Uchiha.jpg" class="card-img-top" alt="..." />
+					<div class="ninja-card-overlay rounded">
+						<div class="overlay-text text-light">
+							<p><strong>Name:</strong> Sasuke Uchiha</p>
+							<p><strong>Clan:</strong> Uchiha clan</p>
+							<p><strong>Dojutsu:</strong> Mangekyo Sharingan</p>
+							<p><strong>Summoning:</strong> Snake</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="ninja-card shadow-lg mx-2 rounded" style="width: 18rem">
+					<img src="./images/Sakura Haruno..jpg" class="card-img-top" alt="..." />
+					<div class="ninja-card-overlay rounded">
+						<div class="overlay-text text-light">
+							<p><strong>Name:</strong> Sakura Haruno</p>
+							<p><strong>Clan:</strong> Unknown</p>
+							<p><strong>Dojutsu:</strong> None</p>
+							<p><strong>Sumonning:</strong> Slug</p>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"

@@ -13,18 +13,18 @@
 	background-blend-mode: overlay;
 }
 
-.containers {
+.ninja-card {
 	position: relative;
 	width: 400px;
-	height: 400px;
+	height: 330px;
 	margin: 2rem auto;
 }
 
-.image {
-	display: block;
+.ninja-card img {
+	height: 330px;
 }
 
-.texter-overlay {
+.ninja-card-overlay {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -37,13 +37,12 @@
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
-.containers:hover .texter-overlay {
+.ninja-card:hover .ninja-card-overlay {
 	opacity: 1;
 }
 
-.texter {
+.overlay-text {
 	width: 80%;
-	color: white;
 	font-size: 20px;
 	position: absolute;
 	top: 50%;
