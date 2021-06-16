@@ -4,6 +4,15 @@
 	box-sizing: border-box;
 }
 
+.header-div {
+	height: 400px;
+	background-image: url(./images/Naruto\ hero\ image.jpg);
+	background-repeat: no-repeat;
+	background-color: rgba(0, 0, 0, 0.7);
+	background-size: cover;
+	background-blend-mode: overlay;
+}
+
 .containers {
 	position: relative;
 	width: 400px;
