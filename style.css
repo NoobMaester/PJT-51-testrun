@@ -16,3 +16,21 @@ div h3 {
   font-size: 6rem;
   margin-top: 100px;
 }
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.container button{
+  padding: 1rem 2rem;
+  border: none;
+  background: darkgray;
+  color: rgba(255, 255, 255, 0.9);
+  width: 30%;
+  margin: 2rem auto;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.container button:hover{
+  transform: scale(1.1);
+  transition: transform 1s ease;
+}
